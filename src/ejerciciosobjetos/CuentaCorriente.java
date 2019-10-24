@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosobjetos;
 public class CuentaCorriente {
     public String IBAN;
     private float saldo;
