@@ -7,7 +7,7 @@ public class EjercicioObjetos0601 {
         MovilPrepago movil = new MovilPrepago(605308712, 0.35f, 0.05f, 0.10f, 10);
         
         // hacer una llamada
-        llamada = movil.consultarSaldo(500f);
+        movil.consultarSaldo();
         // hacer una navegacion
         // hacer una recarga
         // consultar sadldo
