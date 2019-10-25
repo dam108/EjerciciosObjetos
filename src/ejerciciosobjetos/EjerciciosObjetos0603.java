@@ -18,15 +18,7 @@ public class EjerciciosObjetos0603 {
             opcion = pedirOpcion();
             
             // si la opcion es igual a 1 ejecutamos caso 1 y si es igual a caso 2 ejecutamos caso 2
-            switch (opcion){
-                case 1:
-                    // en caso uno llamamos a la funcion pasandole el parametro 1
-                    getOperacion(1);
-                    break;
-                case 2:
-                    getOperacion(2);
-                    break;
-            }
+            getOperacion(opcion);
             
         } while (opcion != 0);
         

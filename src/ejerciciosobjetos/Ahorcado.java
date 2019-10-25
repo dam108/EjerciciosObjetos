@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosobjetos;
 import java.util.Scanner;
 
 public class Ahorcado {
@@ -92,7 +92,7 @@ switch (intentos) {
         System.out.println(".....|.");
         System.out.println(".....|.");
         System.out.println("-------");
-        
+        break;
     case 7: 
         System.out.println(".-----.");
         System.out.println(".|...|.");
