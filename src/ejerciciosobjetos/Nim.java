@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosobjetos;
 
 public class Nim {
     public int [] palillos = {3,5,7};

@@ -63,6 +63,7 @@ public char leerLetra () {
 public void pintar (){
 System.out.print("\n----------------------------------------------------\n");
 System.out.println("Estado actual:" + fraseActual);
+if(this.pista.length() != 0) System.out.println("la pista es : "+this.pista);
 System.out.println("Llevas " + intentos + " fallos  de " + MAX_ERRORS);
 switch (intentos) {
     case 10: 

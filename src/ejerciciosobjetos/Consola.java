@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosobjetos;
 import java.util.Scanner;
 public class Consola {  
       
