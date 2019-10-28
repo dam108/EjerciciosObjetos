@@ -42,8 +42,8 @@ public class EjerciciosObjetos0605b {
             terminar = tablero.Fin();
             
         }while (!terminar);
-        if (humano) System.out.println("you lose!");
-        else System.out.println("le has ganado a la maquian Fenomeno , fiera, maestro , pantera");
+        if (humano) System.out.println("le has ganado a la maquian Fenomeno , fiera, maestro , pantera");
+        else System.out.println("you lose!");
         
 
     } // fin main
@@ -62,7 +62,7 @@ public class EjerciciosObjetos0605b {
     }
     public static int pedirCantidad(){
         int cc;
-        System.out.println("Introcue la cantidad de palillos a quitar");;
+        System.out.println("Introcue la cantidad de palillos a quitar");
         cc = teclado.nextInt();
         return cc;
     }

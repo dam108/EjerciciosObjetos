@@ -71,8 +71,6 @@ public class EjerciciosObjetos0604 {
             System.out.println("has perdido");
            
         }
-        
-        
-    }
+   }
     
 } // fin de class
