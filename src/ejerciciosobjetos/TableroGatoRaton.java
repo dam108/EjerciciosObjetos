@@ -20,5 +20,12 @@ public class TableroGatoRaton {
 
         }
     }
+    
+    public static boolean fin(){
+        if (Raton.getPosFilaRaton() == Gato.getPosFilaGato() && Raton.getPosColRaton() == Gato.getPosColGato()){
+           return true;  
+        } else return false;
+        
+    }
 
 } //fin clase
