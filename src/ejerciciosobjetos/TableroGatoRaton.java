@@ -12,8 +12,8 @@ public class TableroGatoRaton {
     public void pintarTablero(){
         for (int i = 0; i < cantidadFilas ; i++) {
                 for (int j = 0; j < cantidadColumnas; j++) {
-                    if (i == Gato.posIniFGato && j == Gato.posCGato)  System.out.print(" G ");
-                    else if (i == Raton.posIniFRaton && j == Raton.posCRaton) System.out.print(" R ");
+                    if (i == Gato.posIniFGato && j == Gato.posIniCGato)  System.out.print(" G ");
+                    else if (i == Raton.posIniFRaton && j == Raton.posIniCRaton) System.out.print(" R ");
                     else System.out.print(" . ");
                 }
                 System.out.println();
