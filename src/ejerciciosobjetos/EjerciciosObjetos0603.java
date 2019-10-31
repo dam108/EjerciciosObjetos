@@ -10,7 +10,7 @@ public class EjerciciosObjetos0603 {
         cuenta1 = new CuentaCorriente("ES1212341234120123456789");
         System.out.println("Se ha creado la Cuenta corriente numero 1 con el IBAN "+cuenta1.IBAN+ " con saldo "+cuenta1.getSaldo()+" EUROS");
         cuenta2 = new CuentaCorriente("ES1212341234120123456790");
-        System.out.println("Se ha creado la Cuenta corriente numero 2 con el IBAN "+cuenta2.IBAN+ " con saldo "+cuenta1.getSaldo()+" EUROS");
+        System.out.println("Se ha creado la Cuenta corriente numero 2 con el IBAN "+cuenta2.IBAN+ " con saldo "+cuenta2.getSaldo()+" EUROS");
         
         // creamos el loop del primer menu donde elegimos que cuenta usar
         do {
@@ -54,7 +54,6 @@ public class EjerciciosObjetos0603 {
                         System.out.println("Tu saldo es: "+cuenta2.getSaldo());
                         break;  
                     }
-                    
                 case 2:
                     System.out.println("¿Cuanto quieres retirar?");
                     if (nn == 1){
