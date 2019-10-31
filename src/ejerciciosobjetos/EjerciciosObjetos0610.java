@@ -18,7 +18,6 @@ public class EjerciciosObjetos0610 {
         
         // elegimos la cuenta a usar
         pedirOpcion();
-        // creamos el loop del primer menu donde elegimos que cuenta usar
         do {
             // trabajamos con ella
             getOperacion();
