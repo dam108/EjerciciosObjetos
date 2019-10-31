@@ -1,6 +1,6 @@
 package ejerciciosobjetos;
 import java.util.Scanner;
-public class EjerciciosObjetos06010 {
+public class EjerciciosObjetos0610 {
     public static int numMenu = 0; 
     public static CuentaBanco cuenta1;
     public static CuentaBanco cuenta2;
