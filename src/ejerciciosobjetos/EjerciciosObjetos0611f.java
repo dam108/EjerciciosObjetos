@@ -24,6 +24,7 @@ public class EjerciciosObjetos0611f {
         System.out.println("Introduce el tipo de articulo: ");
         System.out.println("1 - perecedero, 2 - electronica, 3 - ropa");
         int opcion = teclado.nextInt();
+        teclado.nextLine();
         return opcion;
     }
     
@@ -49,19 +50,22 @@ public class EjerciciosObjetos0611f {
                 // le sumamos 5 a la hora de la compra
                 LocalTime horaLimite = time.plusHours(5);
                 // comprobamos si la hora actual es menor a la hora limite y devolvemos true o false
-                return horaLimite.isBefore(horaActual);
+                return horaActual.isBefore(horaLimite);
             case 2:
                 // si es electronica comprobamos que la fecha sea menor a 6 meses hasta hoy 
-                LocalDate fechaLimite = fecha.plusMonths(6);
+                LocalDate fechaLimite = f.plusMonths(6);
                 LocalDate fechaActual = LocalDate.now();
+                /* DEBUG 
+                System.out.println(fechaLimite+" "+fechaActual+" "+fechaLimite.isBefore(fechaActual));
+                */
                 // comprobamos si la fecha actual es menor a la fecha limite y devolvemos true o false
-                return fechaLimite.isBefore(fechaActual);
+                return fechaActual.isBefore(fechaLimite);
             case 3:
                 // si es ropa comprobamos que la fecha sea menor a 15 dias con la de hoy
-               LocalDate fechaLimiteElec = fecha.plusDays(15);
+               LocalDate fechaLimiteElec = f.plusDays(15);
                LocalDate fechaActualElect = LocalDate.now();
                 // comprobamos si la fecha actual es menor a la fecha limite y devolvemos true o false
-                return fechaLimiteElec.isBefore(fechaActualElect);
+                return fechaActualElect.isBefore(fechaLimiteElec);
         }
         return false;
     }   
