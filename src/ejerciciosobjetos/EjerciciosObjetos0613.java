@@ -30,8 +30,7 @@ public class EjerciciosObjetos0613 {
         else System.out.println(nombreA+" es mayor que "+nombreB);
         
         //Cambiamos el nombre de la escuela de los alumnos
-        alumno1.setAlumnoNomEscuela("Liceo");
-        alumno2.setAlumnoNomEscuela("Fernando Wirtz");
+        Alumno.setAlumnoNomEscuela("Fernando Wirtz");
         
         System.out.println("La escuela de "+nombreA+" es "+alumno1.getAlumnoNomEscuela());
         System.out.println("La escuela de "+nombreB+" es "+alumno2.getAlumnoNomEscuela());
@@ -45,10 +44,8 @@ public class EjerciciosObjetos0613 {
         String dni = teclado.nextLine();
         System.out.println("Introduce la fecha de nacimiento del Alumno:");
         String fecha = teclado.nextLine();
-        System.out.println("Introduce el nombre de la Escuela:");
-        String nombreEscuela = teclado.nextLine();
         
-        return new Alumno(nombre, dni, fecha, nombreEscuela); 
+        return new Alumno(nombre, dni, fecha); 
     }
     
 } //fin class

@@ -1,3 +1,4 @@
+
 package ejerciciosobjetos;
 import java.util.Scanner;
 public class EjerciciosObjetos0615 {

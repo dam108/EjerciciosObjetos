@@ -7,15 +7,15 @@ public class Alumno {
     private String nombre;
     private String DNI;
     private String fechaNac;
-    private String nomEscuela;
+    private static String nomEscuela;
 
     
     /* CONTRUCTOR */   
-    Alumno (String nomb, String dni, String fec, String nomEs){
+    Alumno (String nomb, String dni, String fec){
         nombre = nomb;
         DNI = dni;
         fechaNac = fec;
-        nomEscuela = nomEs;
+        nomEscuela = "Ies As Mariñas";
     }
     
     public static boolean esMayor(Alumno a, Alumno b){
@@ -58,8 +58,8 @@ public class Alumno {
     public void setAlumnoFec (String fec) {
         this.fechaNac = fec;
     }
-    public void setAlumnoNomEscuela (String nEscuela) {
-        this.nomEscuela = nEscuela;
+    public static void setAlumnoNomEscuela (String nEscuela) {
+        nomEscuela = nEscuela;
     }
     
 } //fin clase
