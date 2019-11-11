@@ -1,5 +1,6 @@
 package ejerciciosobjetos;
 public class Ruleta {
+    private static final int MAXnumRULETA = 36;
     
 /* CONSTRUCTOR */
     Ruleta () {
@@ -13,7 +14,7 @@ public class Ruleta {
         return false;
     }
     private static int getResultado(){
-        double res = Math.random() * 37;
+        double res = Math.random() * MAXnumRULETA + 1;
         int num = (int)res;
         return num;
     }
